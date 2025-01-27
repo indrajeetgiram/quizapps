@@ -1,0 +1,119 @@
+/* Global font styles */
+* {
+    font-family: Georgia, Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quiz container */
+#quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #F5F3F5;
+    /* Light background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Soft shadow */
+}
+
+/* Hover effect for the container */
+#quiz-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Progress bar itself */
+.progress-bar {
+    width: 0%;
+    height: 6px;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+
+/* Question box */
+.question-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button.option-btn {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #f1f3f5;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.option-btn:hover {
+    background-color: #e9ecef;
+    transform: scale(1.02);
+}
+
+/* Correct and incorrect button styles */
+button.correct {
+    background-color: #d4edda !important;
+    border-color: #c3e6cb !important;
+    color: #155724 !important;
+}
+
+button.incorrect {
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+    color: #721c24 !important;
+}
+
+/* Explanation box */
+#explanation {
+    display: none;
+}
+
+.explanation {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Success and Danger alert boxes */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Next button */
+#next-btn {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#next-btn:hover {
+    background-color: #6a11cb;
+}
